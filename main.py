@@ -17,7 +17,7 @@ pygame.display.set_caption("Snake.io")
  
 # Snake score
 
-SCORE_FONT = pygame.freetype.Font('snake_game\\Montserrat_Regular.ttf', 24)
+SCORE_FONT = pygame.freetype.Font(f"{os.getcwd()}\\fonts\\Montserrat_Regular.ttf", 24)
 
 # All colors
 
